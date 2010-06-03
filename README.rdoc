@@ -1,0 +1,7 @@
+= Rock Climbing Grades
+
+Author::     Chris Cummer <chris@postal-code.com>
+Copyright::  None.
+License::    WTFPL (http://sam.zoy.org/wtfpl/)
+
+Recognized rock climbing grades in a collection of different file formats.
