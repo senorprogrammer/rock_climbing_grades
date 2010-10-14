@@ -1,4 +1,4 @@
--- 'YDS','British','French','UIAA','Saxon','Australia','Finnish','Norwegian','Brazilian</th></tr>
+-- 'YDS','British','French','UIAA','Saxon','Australia','Finnish','Norwegian','Brazilian
 INSERT INTO `rock_climb_route_grades` ( `american`, `british`, `french`, `uiaa`, `saxon`, `australian`, `finnish`, `norwegian`, `brazilian` ) VALUES
 ( 'unknown','unknown','unknown','unknown','unknown','unknown','unknown','unknown','unknown' ),
 ( '5.2','','1','I','I','10','','1','Isup' ),
