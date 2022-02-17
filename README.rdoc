@@ -5,3 +5,6 @@ Copyright::  None.
 License::    WTFPL (http://sam.zoy.org/wtfpl/)
 
 Recognized rock climbing grades in a collection of different file formats.
+
+= Updating
+Edit the bouldering/rock_climbing csv files and run `update.py`. Requires python3.
