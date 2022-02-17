@@ -13,7 +13,18 @@ def write_html(filename, lines):
 </table>""")
 
 def write_sql(filename, lines):
-    pass
+    def join_parts(quote, parts):
+        return ', '.join([f"{quote}{part.strip()}{quote}" for part in parts])
+
+    top_comment = join_parts("'", lines[0])
+    columns = join_parts("`", [part.lower() for part in lines[0]])
+    values = ',\n'.join([f"""({join_parts("'", line)})""" for line in lines[1:]])
+    with open(f'{filename}.sql', 'w') as f:
+        f.write(f"""
+-- {top_comment}
+INSERT INTO `{filename.lower()}_route_grades` ( {columns} ) VALUES
+{values};
+""")
  
 def update_file(filename):
     with open(f'{filename}.csv') as f:
