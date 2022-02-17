@@ -18,4 +18,5 @@ INSERT INTO `bouldering_route_grades` ( `vermin v`, `b`, `fontainebleau` ) VALUE
 ('V13', 'B13', '8b'),
 ('V14', 'B14', '8b+'),
 ('V15', 'B15', '8c'),
-('V16', 'B16', '8c+');
+('V16', 'B16', '8c+'),
+('V17', '', '9A');
